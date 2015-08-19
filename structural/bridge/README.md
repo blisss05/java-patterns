@@ -6,4 +6,4 @@
  - When both the functional abstraction and its implementation need to extended using sub-classes.
  - It is mostly used in those places where changes are made in the implementation does not affect the clients.
  
-##### In a nutshell, Bridget pattern gives two layers abstraction of implementation, in this case, TV and remote control.
+##### In a nutshell, Bridget pattern gives two layers abstraction of implementation, in this example, TV and remote control.
