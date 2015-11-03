@@ -18,5 +18,5 @@
     _Providing an interface to a set of interfaces._<br/><br/>
 6. Flyweight Pattern<br/>
     _Reusing an object by sharing it._<br/><br/>
-7. Pproxy Pattern<br/>
+7. Proxy Pattern<br/>
     _Representing another object._<br/><br/>
