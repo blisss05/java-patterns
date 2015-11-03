@@ -5,4 +5,4 @@
  
 > Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
  
- In this example we have a database and two app which are notified whenever there is a change to the database.
+ In this example we have a database and two apps which are notified whenever there is a change to the database.
