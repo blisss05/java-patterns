@@ -2,6 +2,7 @@ package org.visitor.implementation.visitor;
 
 import org.visitor.implementation.item.OfficeOne;
 import org.visitor.implementation.item.OfficeTwo;
+import org.visitor.implementation.item.Cafeteria;
 import org.visitor.interfaces.visitor.Visitor;
 
 /**
@@ -11,11 +12,20 @@ public class PaymentVisitor implements Visitor {
 
     @Override
     public int visit(OfficeOne officeOne) {
-        return 0;
+        int $payment$ = officeOne.employeeQuantity * officeOne.employeeRate;
+        return $payment$;
     }
 
     @Override
     public int visit(OfficeTwo officeTwo) {
-        return 0;
+        float specialDiscount = 2;
+        int $payment$ = officeTwo.employeeQuantity * officeTwo.employeeRate / 2;
+        return $payment$;
+    }
+
+    @Override
+    public int visit(Cafeteria cafeteria) {
+        int $payment$ = cafeteria.employeeQuantity * cafeteria.employeeRate / 2;
+        return $payment$;
     }
 }
