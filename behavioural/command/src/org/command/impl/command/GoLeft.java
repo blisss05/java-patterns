@@ -1,7 +1,7 @@
-package behavioural.command.src.org.command.impl.command;
+package org.command.impl.command;
 
-import behavioural.command.src.org.command.interf.Character;
-import behavioural.command.src.org.command.interf.Command;
+import org.command.interf.Character;
+import org.command.interf.Command;
 
 /**
  * Created by blisss05 on 3/4/2016.

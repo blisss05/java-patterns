@@ -1,6 +1,6 @@
-package behavioural.command.src.org.command.impl.character;
+package org.command.impl.character;
 
-import behavioural.command.src.org.command.interf.Character;
+import org.command.interf.Character;
 
 /**
  * Created by blisss05 on 3/4/2016.

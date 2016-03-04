@@ -1,4 +1,4 @@
-package behavioural.command.src.org.command.interf;
+package org.command.interf;
 
 /**
  * Created by blisss05 on 3/4/2016.

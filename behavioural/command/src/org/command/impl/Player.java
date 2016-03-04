@@ -1,7 +1,7 @@
-package behavioural.command.src.org.command.impl;
+package org.command.impl;
 
-import behavioural.command.src.org.command.interf.Character;
-import behavioural.command.src.org.command.interf.Command;
+import org.command.interf.Character;
+import org.command.interf.Command;
 
 import java.util.ArrayList;
 import java.util.List;

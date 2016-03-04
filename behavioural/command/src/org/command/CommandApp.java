@@ -1,13 +1,13 @@
-package behavioural.command.src.org.command;
+package org.command;
 
-import behavioural.command.src.org.command.impl.Player;
-import behavioural.command.src.org.command.impl.character.Human;
-import behavioural.command.src.org.command.impl.character.Ork;
-import behavioural.command.src.org.command.impl.command.GoBack;
-import behavioural.command.src.org.command.impl.command.GoForward;
-import behavioural.command.src.org.command.impl.command.GoLeft;
-import behavioural.command.src.org.command.impl.command.GoRight;
-import behavioural.command.src.org.command.interf.Command;
+import org.command.impl.Player;
+import org.command.impl.character.Human;
+import org.command.impl.character.Ork;
+import org.command.impl.command.GoBack;
+import org.command.impl.command.GoForward;
+import org.command.impl.command.GoLeft;
+import org.command.impl.command.GoRight;
+import org.command.interf.Command;
 
 /**
  * Created by blisss05 on 3/4/2016.
