@@ -18,7 +18,7 @@ public class AppTwo implements Observer {
     @Override
     public void update() {
         this.data = (String) database.getUpdate();
-        System.out.println("AppTwo -> recieved updated data.");
+        System.out.println("AppTwo -> received updated data.");
     }
 
     @Override

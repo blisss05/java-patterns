@@ -28,4 +28,12 @@ public class VisitorApp {
         System.out.println("You need [ " + cleaningTimeHours + " ] hours to clean all items.");
         System.out.println("You need [ " + $payment$ + " ] bucks to pay all items.");
     }
+
+    /**
+     * Output:
+     *
+     * You need [ 69 ] hours to clean all items.
+     * You need [ 26 ] bucks to pay all items.
+     *
+     */
 }

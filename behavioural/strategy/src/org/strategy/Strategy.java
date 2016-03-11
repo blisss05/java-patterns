@@ -31,4 +31,11 @@ public class Strategy {
         String textToBeSave = "I'm text and want to be saved";
         context.saveTextToFile(textToBeSave);
     }
+
+    /**
+     * Output:
+     *
+     * Saving  [ I'm text and want to be saved ] to a file with *.rtf format
+     *
+     */
 }

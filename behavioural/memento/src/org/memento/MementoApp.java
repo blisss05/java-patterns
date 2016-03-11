@@ -39,4 +39,21 @@ public class MementoApp {
         System.out.println("\nContent of file [" + fileName2 + "] of version " + version2);
         System.out.println(VersionControlCaretaker.getFileContentByVersion(version2, fileName2));
     }
+
+    /**
+     * Output:
+     *
+     * Content of file [Utils] of version V2
+     * 2 useful things
+     *
+     * Content of file [Advance utils] of version V1
+     * 4 Extra useful thing
+     *
+     * Content of file [Utils] of version V1
+     * 1 useful thing
+     *
+     * Content of file [Advance utils] of version V2
+     * 2 just useful things
+     *
+     */
 }

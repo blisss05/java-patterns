@@ -17,4 +17,14 @@ public class StateApp {
         lamborghini.startEngine();
         lamborghini.drive();
     }
+
+    /**
+     * Output:
+     *
+     * Engine started..Rrrrr
+     * Car is moving...
+     * Rrrrr...Cannot start engine without fuel
+     * Car is not moving...No fuel
+     *
+     */
 }

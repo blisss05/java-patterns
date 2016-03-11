@@ -33,4 +33,16 @@ public class Bridge {
         remoteCtr.setChanel(A_TEST_CHANEL);
         remoteCtr.turnOff();
     }
+
+    /**
+     * Output:
+     *
+     * Logitech remote control was used to ->
+     *   Turn on Sony TV...
+     * Logitech remote control was used to ->
+     *   Switch chanel on Sony TV to 5
+     * Logitech remote control was used to ->
+     *   Turn off Sony TV...
+     *
+     */
 }

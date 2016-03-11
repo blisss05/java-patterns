@@ -25,4 +25,27 @@ public class MediatorApp {
 
         ant2.sendSignal(Ant.Signal.FIGHT);
     }
+
+    /**
+     * Output:
+     *
+     * Ant Johny is sending a signal 'Please work'
+     *
+     * Ant Leonid received a signal 'Please work'
+     * Ant Leonid says : I cannot work I'm a fighter!
+     * Ant Bob received a signal 'Please work'
+     * Ant Bob says : I'll work, I like to work!
+     * Ant Muhamed received a signal 'Please work'
+     * Ant Muhamed says : I cannot work I'm a fighter!
+     *
+     * Ant Leonid is sending a signal 'You need to fight'
+     *
+     * Ant Johny received a signal 'You need to fight'
+     * Ant Johny says : I cannot fight, I like to work!
+     * Ant Bob received a signal 'You need to fight'
+     * Ant Bob says : I cannot fight, I like to work!
+     * Ant Muhamed received a signal 'You need to fight'
+     * Ant Muhamed says : I'll fight for the Queen
+     *
+     */
 }

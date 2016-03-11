@@ -31,4 +31,12 @@ public class ObserverApp {
 
         database.setState("Very important data.");
     }
+    /**
+     * Output:
+     *
+     * New data has been persisted
+     * AppOne -> received updated data.
+     * AppTwo -> received updated data.
+     *
+     */
 }
