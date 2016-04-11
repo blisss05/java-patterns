@@ -20,4 +20,10 @@ public class FactoryMethodApp {
 
         System.out.println("You chose [ " + drink.getName() +  " ]");
     }
+    /**
+     * Output:
+     *
+     * You chose [ Coffee (Black Americano) ]
+     *
+     */
 }

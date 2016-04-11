@@ -37,4 +37,17 @@ public class IteratorApp {
             }
         }
     }
+
+    /**
+     * Output:
+     *
+     * 	Pupil Volodymyr is not present today
+     *  Pupil Roman is present today
+     *  Pupil Boby is not present today
+     *  Pupil John is not present today
+     *  Pupil Jim is present today
+     *  Pupil Kenny is not present today
+     *  Pupil Mike is present today
+     *
+     */
 }

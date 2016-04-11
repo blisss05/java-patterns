@@ -25,4 +25,10 @@ public class BuilderApp {
 
 		System.out.println("Name of drink " + client.getDrink().setName() + " and quantity " + client.getDrink().getQuantity());
 	}
+	/**
+	 * Output:
+	 *
+	 * Name of drink wine and quantity 1
+	 *
+	 */
 }
